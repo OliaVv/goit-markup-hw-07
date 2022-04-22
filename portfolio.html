@@ -23,27 +23,26 @@
 
   <body>
     <header class="header">
-      <div class="conteiner">
-        <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <nav>
+      <div class="conteiner header__conteiner">
+        <a class="logo header__logo" href="./index.html"><span class="logo__text">Web</span>Studio</a>        <nav>
           <ul class="nav-menu list">
-            <li class="item"><a class="nav-link" href="./index.html">Студия</a></li>
-            <li class="item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
-            <li class="item"><a class="nav-link" href="./contacts.html">Контакты</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Студія</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link nav-menu__link--current" href="./portfolio.html">Портфоліо</a></li>
+            <li class="nav-menu__item"><a class="nav-menu__link" href="./contacts.html">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="item">
-            <a class="contact-link" href="mailto:info@devstudio.com">
-              <svg class="contact-icon" width="16px" height="12px">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16px" height="12px">
                 <use href="./images/icon.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="contact-link" href="tel:+380961111111">
-              <svg class="contact-icon" width="10px" height="16px">
+            <a class="contact__link" href="tel:+380961111111">
+              <svg class="contact__icon" width="10px" height="16px">
                 <use href="./images/icon.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -229,31 +228,31 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner">
-        <div class="adr-section">
-          <a class="logo-footer" href="./index.html"><span class="accent">Web</span>Studio</a>
+      <div class="conteiner footer__conteiner">
+        <div class="footer__section">
+          <a class="footer__logo" href="./index.html"><span class="logo__text">Web</span>Studio</a>
           <address class="address">
-            <ul class="list adr-list">
-              <li class="item">
+            <ul class="list address__list">
+              <li class="address__item">
                 <a
-                  class="adr-link"
+                  class="address__link"
                   href="https://goo.gl/maps/gPNB1iQAhUUWyKDR6"
                   target="_blank"
                   rel="noreferrer noopener"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="item">
-                <a class="link-smart" href="mailto:info@example.com">info@example.com</a>
+              <li class="address__item">
+                <a class="address__link address__link--smart" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="item">
-                <a class="link-smart" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="address__item">
+                <a class="address__link address__link--smart" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="join-section">
-          <p class="form-title">приєднуйтесь</p>
+        <div class="join-form">
+          <p class="join-form__title">приєднуйтесь</p>
           <ul class="social-list list">
             <li class="social-link-item">
               <a class="footer-social-link" href="" aria-label="instagram">
@@ -286,7 +285,7 @@
           </ul>
         </div>
         <div class="subscribe">
-          <p class="form-title">підпишиться на розсилку</p>
+          <p class="join-form__title">підпишиться на розсилку</p>
           <form class="subscribe-form">
             <label for="email" name="email">
               <input class="sub-email" type="email" placeholder="E-mail" required />
