@@ -16,10 +16,11 @@
     cursor: pointer;
     background-color: var(--accent, #2196f3);
     transition: background-color var(--animation);
+    &:hover,
+    &:focus {
+      background-color: #188ce8;
+      outline: transparent;
   }
-  .btn:hover,
-  .btn:focus {
-    background-color: #188ce8;
-    outline: transparent;
   }
+  
   

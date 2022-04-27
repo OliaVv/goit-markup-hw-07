@@ -12,12 +12,12 @@
     border-radius: 4px;
     cursor: pointer;
     transition: color var(--animation), background-color var(--animation);
-  }
-  .filter:hover,
-  .filter:focus {
-    background-color: var(--accent, #2196f3);
-    color: var(--white, #ffffff);
-    outline: transparent;
+    &:hover,
+    &:focus {
+      background-color: var(--accent, #2196f3);
+      color: var(--white, #ffffff);
+      outline: transparent;
+      }
   }
   .filters {
     display: flex;

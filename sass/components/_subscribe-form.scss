@@ -18,19 +18,18 @@
     font-size: 16px;
     color: #fff;
     transition: border-color var(--animation);
-  }
-  
-  .sub-email:hover,
-  .sub-email:focus {
-    outline: transparent;
-    border-color: var(--accent);
-    outline: transparent;
-  }
-  .sub-mail::placeholder {
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.6);
+    &:hover,
+    &:focus {
+      outline: transparent;
+      border-color: var(--accent);
+      outline: transparent;
+    }
+    &::placeholder {
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+        color: rgba(255, 255, 255, 0.6);
+    }
   }
   .sub-icon {
     margin-left: 10px;

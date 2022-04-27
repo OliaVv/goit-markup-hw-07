@@ -31,11 +31,11 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     transition: color var(--animation);
-  }
-  .nav-menu__link:hover,
-  .nav-menu__link:focus {
-    color: var(--accent, #2196f3);
-    outline: transparent;
+    &:hover,
+    &:focus {
+      color: var(--accent, #2196f3);
+      outline: transparent;
+    }
   }
   .nav-menu__link--current {
     display: flex;
@@ -66,12 +66,13 @@
     letter-spacing: 0.02em;
     color: var(--second-color, #757575);
     transition: color var(--animation);
+    &:hover,
+    &:focus {
+      color: var(--accent, #2196f3);
+      outline: transparent;
+    }
   }
-  .contact__link:hover,
-  .contact__link:focus {
-    color: var(--accent, #2196f3);
-    outline: transparent;
-  }
+  
   .contact__icon {
     margin-right: 10px;
     fill: currentColor;

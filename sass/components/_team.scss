@@ -47,17 +47,18 @@
     text-align: center;
     color: #afb1b8;
     transition: color var(--animation), background-color var(--animation);
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
+      color: #fff;
+      outline: transparent;
+    }
   }
-  
   .social-link__item:not(:last-child) {
     margin-right: 10px;
   }
   .social__icon {
     fill: currentColor;
+    
   }
-  .social-link:hover,
-  .social-link:focus {
-    background-color: #2196f3;
-    color: #fff;
-    outline: transparent;
-  }
+ 

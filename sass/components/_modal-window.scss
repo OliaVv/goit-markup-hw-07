@@ -43,15 +43,16 @@
     color: #000000;
     background-color: white;
     transition: fill var(--animation);
+    &:hover,
+    &:focus {
+      fill: var(--accent);
+      outline: transparent;
+    }
   }
   .icon-close {
     color: currentColor;
   }
-  .modal-btn:hover,
-  .modal-btn:focus {
-    fill: var(--accent);
-    outline: transparent;
-  }
+  
   .modal-title {
     margin-bottom: 12px;
     font-weight: 700;
@@ -104,22 +105,22 @@
     line-height: 1.14;
     color: var(--main-color);
     transition: border-color var(--animation);
+    &:hover,
+    &:focus {
+      border-color: var(--accent);
+      outline: transparent;
+    }
+    &:hover ~ .icon-form,
+    &:focus ~ .icon-form {
+      fill: var(--accent);
+      outline: transparent;
+    }
   }
   .modal-input.textarea {
     height: 120px;
     margin-bottom: 20px;
     padding: 12px 16px;
     resize: none;
-    outline: transparent;
-  }
-  .modal-input:hover,
-  .modal-input:focus {
-    border-color: var(--accent);
-    outline: transparent;
-  }
-  .modal-input:hover ~ .icon-form,
-  .modal-input:focus ~ .icon-form {
-    fill: var(--accent);
     outline: transparent;
   }
   .textarea::placeholder {

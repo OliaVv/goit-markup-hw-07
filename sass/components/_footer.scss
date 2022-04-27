@@ -48,7 +48,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
@@ -56,9 +55,10 @@
     text-align: center;
     color: #fff;
     transition: background-color var(--animation);
+    &:hover,
+    &:focus {
+      background-color: var(--accent);
+      outline: transparent;
+    }
   }
-  .footer-social-link:hover,
-  .footer-social-link:focus {
-    background-color: var(--accent);
-    outline: transparent;
-  }
+  
